@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.1",
-    "eslint-plugin-abbyy": "file:../eslint-plugin-abbyy"
+    "eslint-plugin-abbyy": "^1."
   },
   "peerDependencies": {
     "eslint": "^7.23.0 || ^8.0.0",
