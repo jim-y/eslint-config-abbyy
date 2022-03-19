@@ -6,12 +6,16 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-y/eslint-config-abbyy.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.1",
-    "eslint-plugin-abbyy": "^1."
+    "eslint-plugin-abbyy": "^1.0.0"
   },
   "peerDependencies": {
     "eslint": "^7.23.0 || ^8.0.0",
