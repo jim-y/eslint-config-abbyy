@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-abbyy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.1.1",
+    "eslint-plugin-abbyy": "file:../eslint-plugin-abbyy"
+  },
+  "peerDependencies": {
+    "eslint": "^7.23.0 || ^8.0.0",
+    "typescript": ">=3.3.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "author": "Attila Kling",
+  "license": "ISC"
+}
